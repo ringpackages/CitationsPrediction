@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "",
 	:email = "",
 	:license = "MIT License",
-	:version = "1.0.0",
+	:version = "1.0.1",
 	:ringversion = "1.17",
 	:versions = 	[
 		[
-			:version = "1.0.0",
+			:version = "1.0.1",
 			:branch = "master"
 		]
 	],
@@ -21,6 +21,11 @@ aPackageInfo = [
 		],
 		[
 			:name = "stdlib",
+			:version = "1.0",
+			:providerusername = ""
+		],
+		[
+			:name = "ringcurl",
 			:version = "1.0",
 			:providerusername = ""
 		],
